@@ -1,6 +1,6 @@
 
 
-$('a').click(function(e){
+$('.scroll-nav').click(function(e){
     e.preventDefault();
     var target = $(this).attr('href');
     $('body, html').animate({
@@ -8,6 +8,9 @@ $('a').click(function(e){
     }, 250);
 });
 
+$('.carousel').carousel({
+    interval: false
+});
 
 // $('.scroll').on('click', function(e) {
 // 	e.preventDefault();

@@ -1,41 +1,48 @@
   <!DOCTYPE html>
-<html lang="de">
+  <html lang="de">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
     <title>Titel</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </head>
-<body>
+
+  <body>
 
 
     <header id="page-header">
       <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="#main">Domum</a>
-        <a class="nav-item nav-link" href="#cv" data-offset="300">Curriculum vitae</a>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Declarationem
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#perzeptivePädagogik">Perzeptive Pädagogik</a>
-          <a class="dropdown-item" href="#">Manuelle Therapie</a>
-          <a class="dropdown-item" href="#">Mein Behandlungskonzept</a>
-        </div>
-      </li>
-        <a class="nav-item nav-link" href="#">Pretium</a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link scroll-nav" href="#main">Domum</a>
+              <a class="nav-item nav-link scroll-nav" href="#cv">Curriculum vitae</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Declarationem
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item scroll-nav" href="#perzeptivePädagogik">Perzeptive Pädagogik</a>
+                  <a class="dropdown-item" href="#manuelleTherapie">Manuelle Therapie</a>
+                  <a class="dropdown-item" href="#">Mein Behandlungskonzept</a>
+                </div>
+              </li>
+              <a class="nav-item nav-link" href="#">Pretium</a>
+            </div>
+          </div>
+        </nav>
       </div>
-    </div>
-  </nav>
-  </div>
     </header>
+
+    <!--   MAIN SEITE   -->
 
     <section id="main">
       <div class="container">
@@ -57,78 +64,153 @@
         </div>
       </div>
     </section>
- 
-<section id="cv">
-  <div class="container">
-    <div class="row">
-      <div class="col-6">
-        <div class="cvLinks">
-          <h5 class="mb-3">Bildung</h5>
-          <p>Abitur - Abendgymnaium Frankfurt (2010)</p>
-          <p>Ausbildung Physiotherapie Erlangen (2006) </p>
-          <p>Manuelle Therapie International Academy of Orthopedic Medicine (2008)</p>
-          <p>mehrere (10+) osteopatische Fortbildungen (OSD & Salutaris)</p>
-          <p>Perzeptive Pädagogik - Methode Danis Bois (seit 2019 in Ausbildung)</p>
+
+    <!--- CURRICULUM VITAE SEITE   --->
+
+    <section id="cv">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h3 class="mb-3">Curriculum Vitae</h3>
+            <p class="text-muted"><em>Eine Methode von Danis Bois und eine Annäherung manuelle Techniken mit <br>
+                Bewegungssequenzen und Achtsamkeit in Einklang zu bringen.</em></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="cvLinks">
+              <h5 class="mb-3">Bildung</h5>
+              <p>Abitur - Abendgymnaium Frankfurt (2010)</p>
+              <p>Ausbildung Physiotherapie Erlangen (2006) </p>
+              <p>Manuelle Therapie International Academy of Orthopedic Medicine (2008)</p>
+              <p>mehrere (10+) osteopatische Fortbildungen (OSD & Salutaris)</p>
+              <p>Perzeptive Pädagogik - Methode Danis Bois (seit 2019 in Ausbildung)</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="cvRechts">
+              <h5 class="mb-3">Erfahrung</h5>
+              <p>Sana-Klinik Pegnitz (2006)<br>
+                <span class="text-muted">Orthopädie, Innere</span> </p>
+              <p>Atlas Top Nürnberg (2007) <br>
+                <span class="text-muted">vorwiegend orthopädisch, med. Trainingstherapie</span> </p>
+              <p>Seiferth Physiotherapie Frankfurt/M (2008) <br>
+                <span class="text-muted">orthopädisch, med. Trainingstherapie</span> </p>
+              <p>Praxis für Physiotherapie Maser, Schmidt & von Alvensleben (2013) <br>
+                <span class="text-muted">vorwiegend orthopädisch, Kiefergelenk (CMD), Schmerz, chron. Schmerz</span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-6">
-        <div class="cvRechts">
-          <h5 class="mb-3">Erfahrung</h5>
-          <p>Sana-Klinik Pegnitz (2006)<br>
-          <span class="text-muted">Orthopädie, Innere</span> </p>
-          <p>Atlas Top Nürnberg (2007) <br>
-          <span class="text-muted">vorwiegend orthopädisch, med. Trainingstherapie</span> </p>
-          <p>Seiferth Physiotherapie Frankfurt/M (2008) <br>
-          <span class="text-muted">orthopädisch, med. Trainingstherapie</span> </p>
-          <p>Praxis für Physiotherapie Maser, Schmidt & von Alvensleben (2013) <br>
-          <span class="text-muted">vorwiegend orthopädisch, Kiefergelenk (CMD), Schmerz, chron. Schmerz</span>
-           </p>
-        </div>
-        </div>
-      </div>
-    </div>
-</section>
+    </section>
 
+    <!--- PERZEPTIVE PÄDAGOKIK SEITE  --->
 
-<section id="perzeptivePädagogik">
-  <div class="container">
-    <div class="row">
-      <div class="col-4">
-        <div class="erklaerung">
-          <h5>Faszientherapie</h5>
-          <p>Heute versteht sich die Faszientherapie als eine ganzheitliche, nicht manipulative, manuelle Therapie der Faszien, welche sich spezifisch an sämtliches Bindegewebe des menschlichen Körpers wendet, also sowohl die oberflächlichen als auch die tiefen Gewebsarten (der Muskulatur, des Skeletts, der Organe, des Schädels) erreicht.</p>
+    <section id="perzeptivePädagogik">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h3 class="mb-3">Perzeptive Pädagogik</h3>
+            <p class="text-muted"><em>Eine Methode von Danis Bois und eine Annäherung manuelle Techniken mit <br>
+                Bewegungssequenzen und Achtsamkeit in Einklang zu bringen.</em></p>
+          </div>
         </div>
       </div>
-      <div class="col-4">
-        <div class="erklaerung">
-          <h5>Gestische Bewegung</h5>
-          <p>Die Perzeptive Pädagogik ist eine Weiterentwicklung der Faszientherapie nach Danis Bois und schlägt eine Schulung der Wahrnehmung vor. Über eine Körperarbeit ermöglicht diese Wahrnehmung den Zugang, in sich selbst und im Anderen, zu einem Prinzip des Lebendigen in einer erstaunlich konkreten und regenerierenden Weise. Dieses Prinzip des Lebendigen ist bewegt, langsam und verbindend.
-          </p>
+
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <!-- carousel Item-1 -->
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row justify-content-center align-items-center carousel-bg">
+                  <div class="col-12 col-md text-center">
+                    <img class="img-fluid" src="src/img/meditation.jpeg">
+                  </div>
+                  <div class="col-12 col-md">
+                    <div class="carousel-text">
+                      <h4 class="pt-4 pt-md-0 pl-5 pr-5">Faszientherapie</h4>
+                      <p class="pb-4 pb-md-0 pl-5 pr-5">
+                        Thasos, an island surrounded by the crystal-clear emerald waters of the Aegean Sea is part of the Northeastern islands of Greece, also being the closest one to the continent.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- carousel Item-2 -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row justify-content-center align-items-center carousel-bg">
+                  <div class="col-12 col-md text-center">
+                    <img class="img-fluid" src="src/img/slackline.png">
+                  </div>
+                  <div class="col-12 col-md">
+                    <div class="carousel-text">
+                      <h4 class="pt-4 pt-md-0 pl-5 pr-5">Sensorische Gymnastik</h4>
+                      <p class="pb-4 pb-md-0 pl-5 pr-5">
+                        Thasos, an island surrounded by the crystal-clear emerald waters of the Aegean Sea is part of the Northeastern islands of Greece, also being the closest one to the continent.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- carousel Item-3 -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row justify-content-center align-items-center carousel-bg">
+                  <div class="col-12 col-md text-center">
+                    <img class="img-fluid" src="src/img/mindfulness.png">
+                  </div>
+                  <div class="col-12 col-md">
+                    <div class="carousel-text">
+                      <h4 class="pt-4 pt-md-0 pl-5 pr-5">Achtsamkeith</h4>
+                      <p class="pb-4 pb-md-0 pl-5 pr-5">
+                        Thasos, an island surrounded by the crystal-clear emerald waters of the Aegean Sea is part of the Northeastern islands of Greece, also being the closest one to the continent.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
-      <div class="col-4">
-        <div class="erklaerung">
-          <h5>Meditation des vollen Gewahrseins</h5>
-          <p>Die Neurowissenschaften haben sich um die Meditation angenommen und ihre Wirkung auf die physische und psychiche Gesundheit bestätigt.
+    </section>
 
-Es gibt Techniken, die dabei Achtsamkeit üben, während die Meditation des vollen Gewahrseins die Welt der Beziehung bei gleichzeitigem Gewahrsein seiner selbst und der anderen bevorzugt.
 
-Konzept und Lebenskunst zugleich bietet sich auch eine praktische Vorgehensweise, in der vorbereitende Übungen und eine behutsame und schrittweise aufgebaute Pädagogik eine ganz neue Erfahrung der Meditation ermöglichen.</p>
+    <section id="manuelleTherapie">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h3 class="mb-3">Manuelle Therapie</h3>
+            <p class="text-muted"><em>Ein Behandlungsansatz bei dem Mobilisationstechniken - zur Funktionsverbesserung und Schmerzreduktion - zur Anwendung kommen.
+                Diese Therapie kann passive Techniken sowie aktive Übungen beinhalten. </em></p>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.0.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="index.js"></script>
 
 
-
   </body>
-</html>
+
+  </html>
