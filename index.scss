@@ -95,6 +95,10 @@ body{
   }
 }
 
+#main{
+  margin-top: 30px;
+}
+
 section{
   margin-top: $margin-section;
   margin-bottom: $margin-section;
@@ -219,5 +223,9 @@ section{
   background-color: #c8dad3;
   padding-top: 100px;
   padding-bottom: 100px;
+  @media (max-width: 991px ) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
 }
