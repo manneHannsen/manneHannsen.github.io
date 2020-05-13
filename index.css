@@ -6818,6 +6818,9 @@ body {
     background-color: #f2f6f5;
     padding-top: 100px;
     width: 100%; }
+    #page-header .navbar .navbar-brand {
+      position: relative;
+      right: 25%; }
   #page-header .navbar-nav {
     width: 75%;
     margin-left: auto;
@@ -6839,6 +6842,16 @@ section {
     height: 100%; }
     #main .container .row {
       height: 100%; }
+    #main .container .card {
+      height: 17rem; }
+      #main .container .card .card-title {
+        text-decoration: underline;
+        color: #63707e; }
+      #main .container .card .card-body {
+        font-size: 1rem;
+        color: #63707e; }
+        #main .container .card .card-body .btn {
+          background-color: #93b5b3; }
   #main .bildMitte {
     float: right;
     width: 60%;

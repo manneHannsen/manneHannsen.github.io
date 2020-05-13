@@ -53,6 +53,10 @@ body{
     background-color: #f2f6f5;
     padding-top: 100px;
     width: 100%;
+    .navbar-brand{
+      position: relative;
+      right: 25%;
+    }
   }
 
   .navbar-nav{
@@ -67,6 +71,8 @@ body{
     .nav-item:hover, .nav-link:hover {
       color: #63707e;
     }
+
+
   }
 }
 
@@ -84,6 +90,23 @@ section{
 
     .row {
       height: 100%;
+    }
+
+    .card{
+      height: 17rem;
+
+      .card-title{
+        text-decoration: underline;
+        color: #63707e;
+      }
+
+      .card-body{
+        font-size: 1rem;
+        color: #63707e;
+        .btn{
+          background-color: #93b5b3;
+        }
+      }
     }
   }
 
