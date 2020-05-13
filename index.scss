@@ -156,6 +156,54 @@ section{
 
 
 
+#perzeptivePädagogik {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  @media (max-width: 991px ) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  background-color: #c8dad3;
+  .carousel-perzeptive-pädagogik{
+    background-color: #f2f6f5;
+  }
+
+  .carousel-text{
+    width: 75%;
+
+    @media (max-width: 991px ) {
+    width: 100%;
+  }
+
+  }
+
+  .carousel-bg{
+    background-color: #f2f6f5;
+  }
+
+  .col-md {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+  filter: invert(60%);
+}
+
+.carousel-indicators{
+  filter: invert(60%);
+}
+
+}
+
+
+#manuelleTherapie {
+
+  }
+
+
+
 #cv {
   background-color: #c8dad3;
   padding-top: 100px;
@@ -182,50 +230,4 @@ section{
   .cvRechts{
     width: 80%;
   }
-}
-
-#perzeptivePädagogik {
-  .carousel-perzeptive-pädagogik{
-    background-color: #c8dad3;
-  }
-
-  .carousel-text{
-    width: 75%;
-
-    @media (max-width: 991px ) {
-    width: 100%;
-  }
-
-  }
-
-  .carousel-bg{
-    background-color: #c8dad3;
-  }
-
-  .col-md {
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .carousel-control-next-icon,
-  .carousel-control-prev-icon {
-  filter: invert(60%);
-}
-
-.carousel-indicators{
-  filter: invert(60%);
-}
-
-}
-
-
-#manuelleTherapie {
-  background-color: #c8dad3;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  @media (max-width: 991px ) {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
 }

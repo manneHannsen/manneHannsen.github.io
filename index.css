@@ -6884,6 +6884,32 @@ section {
   #main .textMitte {
     font-size: 1.6rem; }
 
+#perzeptivePädagogik {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #c8dad3; }
+  @media (max-width: 991px) {
+    #perzeptivePädagogik {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
+  #perzeptivePädagogik .carousel-perzeptive-pädagogik {
+    background-color: #f2f6f5; }
+  #perzeptivePädagogik .carousel-text {
+    width: 75%; }
+    @media (max-width: 991px) {
+      #perzeptivePädagogik .carousel-text {
+        width: 100%; } }
+  #perzeptivePädagogik .carousel-bg {
+    background-color: #f2f6f5; }
+  #perzeptivePädagogik .col-md {
+    margin: 0px;
+    padding: 0px; }
+  #perzeptivePädagogik .carousel-control-next-icon,
+  #perzeptivePädagogik .carousel-control-prev-icon {
+    filter: invert(60%); }
+  #perzeptivePädagogik .carousel-indicators {
+    filter: invert(60%); }
+
 #cv {
   background-color: #c8dad3;
   padding-top: 100px;
@@ -6901,32 +6927,5 @@ section {
     width: 80%; }
   #cv .cvRechts {
     width: 80%; }
-
-#perzeptivePädagogik .carousel-perzeptive-pädagogik {
-  background-color: #c8dad3; }
-#perzeptivePädagogik .carousel-text {
-  width: 75%; }
-  @media (max-width: 991px) {
-    #perzeptivePädagogik .carousel-text {
-      width: 100%; } }
-#perzeptivePädagogik .carousel-bg {
-  background-color: #c8dad3; }
-#perzeptivePädagogik .col-md {
-  margin: 0px;
-  padding: 0px; }
-#perzeptivePädagogik .carousel-control-next-icon,
-#perzeptivePädagogik .carousel-control-prev-icon {
-  filter: invert(60%); }
-#perzeptivePädagogik .carousel-indicators {
-  filter: invert(60%); }
-
-#manuelleTherapie {
-  background-color: #c8dad3;
-  padding-top: 100px;
-  padding-bottom: 100px; }
-  @media (max-width: 991px) {
-    #manuelleTherapie {
-      padding-top: 50px;
-      padding-bottom: 50px; } }
 
 /*# sourceMappingURL=index.css.map */
