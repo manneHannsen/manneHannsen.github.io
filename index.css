@@ -6865,7 +6865,13 @@ section {
     #main .container .row {
       height: 100%; }
     #main .container .card {
-      height: 17rem; }
+      height: 15rem; }
+      @media (min-width: 768px) {
+        #main .container .card {
+          height: 19rem; } }
+      @media (min-width: 992px) {
+        #main .container .card {
+          height: 17rem; } }
       #main .container .card .card-title {
         text-decoration: underline;
         color: #63707e; }

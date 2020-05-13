@@ -121,7 +121,18 @@ section{
     }
 
     .card{
-      height: 17rem;
+      height: 15rem;
+
+      @include media-breakpoint-up(md) {
+        height: 19rem;
+       }
+      @include media-breakpoint-up(lg) {
+        height: 17rem;
+      }
+
+
+
+
 
       .card-title{
         text-decoration: underline;
