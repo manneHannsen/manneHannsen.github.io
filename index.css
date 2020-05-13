@@ -6847,15 +6847,13 @@ body {
       color: #63707e; }
 
 #main {
-  margin-top: 30px; }
+  margin-top: 30px;
+  padding-bottom: 100px; }
 
-section {
-  margin-top: 100px;
-  margin-bottom: 100px; }
-  @media (max-width: 991px) {
-    section {
-      margin-top: 50px;
-      margin-bottom: 50px; } }
+@media (max-width: 991px) {
+  section {
+    padding-top: 50px;
+    padding-bottom: 50px; } }
 
 #main {
   font-family: Roboto, Helvetica, sans-serif;
@@ -6868,7 +6866,7 @@ section {
       height: 15rem; }
       @media (min-width: 768px) {
         #main .container .card {
-          height: 19rem; } }
+          height: 17rem; } }
       @media (min-width: 992px) {
         #main .container .card {
           height: 17rem; } }
@@ -6889,6 +6887,12 @@ section {
     height: auto; }
   #main .textMitte {
     font-size: 1.6rem; }
+
+#manuelleTherapie {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("src/img/sunflower.jpg");
+  background-attachment: fixed; }
 
 #perzeptivePädagogik {
   padding-top: 100px;

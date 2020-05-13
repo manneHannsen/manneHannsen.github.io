@@ -37,6 +37,8 @@ body{
   background-color: #f2f6f5;
 }
 
+//  --------------------- Navigation --------------------- //
+
 #page-header {
 
   position: -webkit-sticky; /* Safari */
@@ -95,16 +97,18 @@ body{
   }
 }
 
+//  --------------------- News Seite --------------------- //
+
+
 #main{
   margin-top: 30px;
+  padding-bottom: 100px;
 }
 
 section{
-  margin-top: $margin-section;
-  margin-bottom: $margin-section;
   @media (max-width: 991px ) {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 }
@@ -124,7 +128,7 @@ section{
       height: 15rem;
 
       @include media-breakpoint-up(md) {
-        height: 19rem;
+        height: 17rem;
        }
       @include media-breakpoint-up(lg) {
         height: 17rem;
@@ -161,6 +165,19 @@ section{
   }
 }
 
+//  --------------------- Manuelle THerapie Seite --------------------- //
+
+
+#manuelleTherapie {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  background-image: url("src/img/sunflower.jpg");
+  background-attachment: fixed;
+
+  }
+
+  //  --------------------- Faszientherapie Seite --------------------- //
 
 
 #perzeptivePädagogik {
@@ -205,9 +222,7 @@ section{
 }
 
 
-#manuelleTherapie {
-
-  }
+//  --------------------- Curriculum Vitae --------------------- //
 
 
 
