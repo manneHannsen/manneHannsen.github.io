@@ -6822,8 +6822,14 @@ body {
       #page-header .navbar {
         padding-top: 30px; } }
     #page-header .navbar .navbar-brand {
-      position: relative;
-      right: 25%; }
+      position: absolute;
+      right: 15%;
+      top: 80px; }
+      @media (max-width: 991px) {
+        #page-header .navbar .navbar-brand {
+          position: static;
+          margin-left: auto;
+          margin-right: auto; } }
   #page-header .navbar-nav {
     width: 75%;
     margin-left: auto;

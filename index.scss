@@ -59,8 +59,15 @@ body{
   }
 
     .navbar-brand{
-      position: relative;
-      right: 25%;
+      position: absolute;
+      right: 15%;
+      top: 80px;
+      @media (max-width: 991px ) {
+        position: static;
+      margin-left: auto;
+      margin-right: auto;
+      }
+
     }
   }
 
