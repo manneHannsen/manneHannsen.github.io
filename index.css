@@ -6818,6 +6818,9 @@ body {
     background-color: #f2f6f5;
     padding-top: 100px;
     width: 100%; }
+    @media (max-width: 991px) {
+      #page-header .navbar {
+        padding-top: 30px; } }
     #page-header .navbar .navbar-brand {
       position: relative;
       right: 25%; }

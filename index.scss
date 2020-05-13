@@ -53,6 +53,11 @@ body{
     background-color: #f2f6f5;
     padding-top: 100px;
     width: 100%;
+
+    @media (max-width: 991px ) {
+    padding-top: 30px;
+  }
+
     .navbar-brand{
       position: relative;
       right: 25%;
