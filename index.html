@@ -19,20 +19,20 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="src/img/logo_gross.png" alt="">
+            <img src="src/img/logo_gross_lila.png" alt="">
           </a>
-
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link" href="#">Domum</a>
+              <a class="nav-item nav-link pl-5" href="#">Domum</a>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Declarationem
+                  Leistungen
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item scroll-nav" href="#perzeptivePädagogik">Personal Training</a>
                   <a class="dropdown-item scroll-nav" href="#perzeptivePädagogik">Perzeptive Pädagogik</a>
                   <a class="dropdown-item scroll-nav" href="#manuelleTherapie">Manuelle Therapie</a>
                   <a class="dropdown-item" href="#">Mein Behandlungskonzept</a>
@@ -40,13 +40,38 @@
               </li>
               <a class="nav-item nav-link scroll-nav" href="#cv">Curriculum vitae</a>
               <a class="nav-item nav-link" href="#">Pretium</a>
-
             </div>
-
           </div>
       </nav>
       </div>
     </header>
+
+
+    <section id=bild>
+      <div class="parallax-window" data-parallax="scroll" data-image-src="src/img/marc_slate_beschreibung.png">
+        <!-- <div class="container-fluid">
+          <div class="row">
+            <div class="offset-7 col-5">
+              <h1 class="display-5 display-sm-3 doyou">DO YOU</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 pt-3 pl-5">
+              <h1 class="display-5 display-sm-3 need">NEED</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-right pr-5">
+              <h1 class="display-sm-4 somehelp">SOME HELP?</h1>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+
+
+
 
     <!--   MAIN SEITE   -->
 
@@ -89,7 +114,6 @@
                 <h5 class="card-title">Nociplastic pain and its th. approach</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing..</p>
                 <a href="#" class="btn">read more</a>
-
               </div>
               <div class="card-footer">
                 <small class="text-muted">27.05.2020 || Marc Toschew</small>
@@ -127,7 +151,6 @@
                 <h5 class="card-title">Nociplastic pain and its th. approach</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing..</p>
                 <a href="#" class="btn">read more</a>
-
               </div>
               <div class="card-footer">
                 <small class="text-muted">27.05.2020 || Marc Toschew</small>
@@ -138,17 +161,18 @@
       </div>
     </section>
 
-
     <!-- MANUELLE THERAPIE SEITE  -->
 
     <section id="manuelleTherapie">
-      <div class="container">
-        <div class="row">
-          <div class="offset-md-3 col-1">
-            <button type="button" class="btn btn-outline-dark">book appointment</button>
-          </div>
-          <div class="offset-md-3 col-5 text-center mb-5">
-            <h3 class="mb-3">Manuelle Therapie</h3>
+      <div class="parallax-window" data-parallax="scroll" data-image-src="src/img/massage.jpg">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="offset-md-3 col-1">
+              <button type="button" class="btn btn-dark">book appointment</button>
+            </div>
+            <div class="offset-md-3 col-5 text-center">
+              <h3 class="mb-3 text-light">Manuelle Therapie</h3>
+            </div>
           </div>
         </div>
       </div>
@@ -168,7 +192,6 @@
           </div>
         </div>
       </div>
-
       <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -288,6 +311,8 @@
 
 
     <script type="text/javascript" src="index.js"></script>
+    <script src="lib/parallax.js"></script>
+
 
 
   </body>

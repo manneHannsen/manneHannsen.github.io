@@ -6787,18 +6787,18 @@ a.text-dark:hover, a.text-dark:focus {
   font-style: normal;
   font-weight: 300;
   src: url("src/fonts/roboto/roboto-v20-latin-ext_latin-300.eot");
+  /* Legacy iOS */
   /* IE9 Compat Modes */
-  src: local("Roboto Light"), local("Roboto-Light"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-300.eot?#iefix") format("embedded-opentype"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-300.woff2") format("woff2"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-300.woff") format("woff"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-300.ttf") format("truetype"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-300.svg#Roboto") format("svg");
-  /* Legacy iOS */ }
+  src: local("Roboto Light"), local("Roboto-Light"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-300.eot?#iefix") format("embedded-opentype"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-300.woff2") format("woff2"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-300.woff") format("woff"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-300.ttf") format("truetype"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-300.svg#Roboto") format("svg"); }
 /* roboto-regular - latin-ext_latin */
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   src: url("src/fonts/roboto/roboto-v20-latin-ext_latin-regular.eot");
+  /* Legacy iOS */
   /* IE9 Compat Modes */
-  src: local("Roboto"), local("Roboto-Regular"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-regular.eot?#iefix") format("embedded-opentype"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-regular.woff2") format("woff2"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-regular.woff") format("woff"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-regular.ttf") format("truetype"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-regular.svg#Roboto") format("svg");
-  /* Legacy iOS */ }
+  src: local("Roboto"), local("Roboto-Regular"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-regular.eot?#iefix") format("embedded-opentype"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-regular.woff2") format("woff2"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-regular.woff") format("woff"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-regular.ttf") format("truetype"), url("src/fonts/roboto/roboto-v20-latin-ext_latin-regular.svg#Roboto") format("svg"); }
 html {
   scroll-behavior: smooth; }
 
@@ -6812,12 +6812,14 @@ body {
   top: 0;
   z-index: 999; }
   #page-header .container-fluid {
-    padding-right: 0px;
-    padding-left: 0px; }
+    padding-right: 0;
+    padding-left: 0; }
   #page-header .navbar {
     background-color: #f2f6f5;
     padding-top: 100px;
-    width: 100%; }
+    padding-bottom: 0;
+    width: 100%;
+    border-bottom: 1px dotted black; }
     @media (max-width: 991px) {
       #page-header .navbar {
         padding-top: 30px; } }
@@ -6837,14 +6839,63 @@ body {
         width: 100%;
         height: 100%; }
   #page-header .navbar-nav {
-    width: 75%;
+    width: 100%;
     margin-left: auto;
-    margin-right: auto;
-    border-bottom: 1px solid black; }
-    #page-header .navbar-nav .nav-item, #page-header .navbar-nav .nav-link {
-      color: #93b5b3; }
-    #page-header .navbar-nav .nav-item:hover, #page-header .navbar-nav .nav-link:hover {
+    margin-right: auto; }
+    #page-header .navbar-nav .nav-item,
+    #page-header .navbar-nav .nav-link {
+      color: #512b58;
+      font-weight: bold; }
+    #page-header .navbar-nav .nav-item:hover,
+    #page-header .navbar-nav .nav-link:hover {
       color: #63707e; }
+
+#bild .doyou {
+  font-weight: bold;
+  text-shadow: 1px 1px 2px darkslateblue;
+  padding-top: 50px; }
+  @media (min-width: 768px) {
+    #bild .doyou {
+      font-size: 4.2rem; } }
+  @media (min-width: 992px) {
+    #bild .doyou {
+      font-size: 4.2rem; } }
+  @media (min-width: 1200px) {
+    #bild .doyou {
+      font-size: 4.2rem;
+      padding-top: 90px; } }
+#bild .need {
+  font-weight: bold;
+  text-shadow: 1px 1px 2px darkslateblue;
+  padding-top: 50px; }
+  @media (min-width: 768px) {
+    #bild .need {
+      font-size: 4.2rem; } }
+  @media (min-width: 992px) {
+    #bild .need {
+      font-size: 4.2rem; } }
+  @media (min-width: 1200px) {
+    #bild .need {
+      font-size: 4.2rem;
+      padding-left: 50px;
+      padding-right: 50px; } }
+#bild .somehelp {
+  font-weight: bold;
+  text-shadow: 1px 1px 2px darkslateblue;
+  padding-top: 400px; }
+  @media (min-width: 768px) {
+    #bild .somehelp {
+      font-size: 4.2rem; } }
+  @media (min-width: 992px) {
+    #bild .somehelp {
+      font-size: 4.2rem; } }
+  @media (min-width: 1200px) {
+    #bild .somehelp {
+      font-size: 4.2rem;
+      padding-top: 350px; } }
+#bild .parallax-window {
+  min-height: 95vh;
+  background: transparent; }
 
 #main {
   margin-top: 30px;
@@ -6863,6 +6914,7 @@ body {
     #main .container .row {
       height: 100%; }
     #main .container .card {
+      border: 1px dotted black;
       height: 15rem; }
       @media (min-width: 768px) {
         #main .container .card {
@@ -6872,12 +6924,15 @@ body {
           height: 17rem; } }
       #main .container .card .card-title {
         text-decoration: underline;
-        color: #63707e; }
+        color: #512b58; }
       #main .container .card .card-body {
         font-size: 1rem;
-        color: #63707e; }
+        color: #512b58; }
         #main .container .card .card-body .btn {
-          background-color: #93b5b3; }
+          background-color: #342ead;
+          color: #f2f6f5; }
+        #main .container .card .card-body .btn:hover {
+          color: grey; }
   #main .bildMitte {
     float: right;
     width: 60%;
@@ -6890,9 +6945,13 @@ body {
 
 #manuelleTherapie {
   padding-top: 100px;
-  padding-bottom: 100px;
-  background-image: url("src/img/sunflower.jpg");
-  background-attachment: fixed; }
+  padding-bottom: 100px; }
+  #manuelleTherapie .parallax-window {
+    min-height: 50vh;
+    background: transparent; }
+  #manuelleTherapie .row {
+    height: 50vh;
+    justify-content: center; }
 
 #perzeptivePädagogik {
   padding-top: 100px;
@@ -6912,8 +6971,8 @@ body {
   #perzeptivePädagogik .carousel-bg {
     background-color: #f2f6f5; }
   #perzeptivePädagogik .col-md {
-    margin: 0px;
-    padding: 0px; }
+    margin: 0;
+    padding: 0; }
   #perzeptivePädagogik .carousel-control-next-icon,
   #perzeptivePädagogik .carousel-control-prev-icon {
     filter: invert(60%); }

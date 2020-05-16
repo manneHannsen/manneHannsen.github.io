@@ -12,6 +12,8 @@ $('.carousel').carousel({
     interval: false
 });
 
+
+
 // $('.scroll').on('click', function(e) {
 // 	e.preventDefault();
 // 	var target = $(this).attr('href');
