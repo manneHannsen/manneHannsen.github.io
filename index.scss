@@ -206,8 +206,9 @@ section {
         color: #512b58;
 
         .btn {
-          background-color: #342ead;
-          color: #f2f6f5;
+          background-color: #f2f6f5;
+          color: #512b58;
+          border: 1px solid #512b58;
         }
         .btn:hover{
           color: grey;
